@@ -1,27 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RikForks Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: black;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    h3 {
+      margin: 10px 0 5px;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+  </style>
+</head>
+
+<body>
+
 <header>RikForks Shop 🛍️</header>
 
 <div class="products">
 
   <div class="card">
-    <img src="https://picsum.photos/id/180/300/200" alt="Headphones">
+    <img src="https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Headphones">
     <h3>Wireless Headphones</h3>
     <p>$49.99</p>
     <a href="#" class="btn">Buy Now</a>
   </div>
 
   <div class="card">
-    <img src="https://picsum.photos/id/1/300/200" alt="Laptop">
+    <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400" alt="Laptop">
     <h3>Smart Laptop</h3>
     <p>$899.99</p>
     <a href="#" class="btn">Buy Now</a>
   </div>
 
   <div class="card">
-    <img src="https://picsum.photos/id/30/300/200" alt="Smart Watch">
+    <img src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Smart Watch">
     <h3>Smart Watch</h3>
     <p>$199.99</p>
     <a href="#" class="btn">Buy Now</a>
   </div>
 
-</div> <!-- THIS is the missing one -->
+</div>
+
+</body>
+</html>
 
