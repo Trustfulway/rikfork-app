@@ -1,0 +1,20 @@
+name: Deploy RikForks Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build step
+        run: echo "Building RikForks site..."
+
+      - name: Deploy step
+        run: echo "Deploying RikForks site..."
